@@ -1,0 +1,17 @@
+/* Corrected CSS with calc() function */
+
+.container {
+  width: calc(100vw - 20px); /* Consistent spacing */
+  height: calc(50vh - 10px); /* Consistent spacing */
+}
+
+.element {
+  width: calc(200px + 10%); /* Clear use of units */
+  height: calc((100px / 2) * 3);/*Clear mathematical structure*/
+}
+
+.another-element {
+  width: calc(100% - 20px);
+  height: calc(100px + 1rem);
+}
+/*Avoid complex nesting for better readability and browser compatibility*/
