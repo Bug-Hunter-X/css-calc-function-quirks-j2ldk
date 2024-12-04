@@ -1,0 +1,3 @@
+# Unexpected Behavior with CSS calc() Function
+
+This repository demonstrates some uncommon errors that can occur when using the CSS `calc()` function.  The `bug.css` file shows examples of inconsistent spacing, unit mixing, and overly complex nesting within `calc()`, leading to unexpected or inconsistent rendering across different browsers.  The `bugSolution.css` file provides corrected versions, highlighting best practices for using `calc()` effectively.  The key is to maintain consistent spacing, ensure proper unit conversion, and avoid overly complex nesting for better browser compatibility and predictable results.
